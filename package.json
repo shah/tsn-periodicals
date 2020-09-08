@@ -1,0 +1,41 @@
+{
+    "name": "@shah/ts-periodicals",
+    "version": "0.7.0",
+    "description": "Content classifiers",
+    "main": "dist/periodicals.js",
+    "types": "dist/periodicals.d.ts",
+    "typings": "dist/periodicals",
+    "scripts": {
+        "start": "ts-node periodicals.ts",
+        "prepublishOnly": "rm -rf dist && tsc --project tsconfig.json",
+        "build": "tsc --project tsconfig.json",
+        "test": "alsatian './**/*.spec.ts'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shah/ts-periodicals.git"
+    },
+    "keywords": [
+        "email",
+        "newsletters"
+    ],
+    "author": "Shahid N. Shah",
+    "license": "MIT",
+    "dependencies": {
+        "@shah/tsn-content-classification-html-anchors": "^0.6.0",
+        "whatwg-mimetype": "^2.3.0"
+    },
+    "bugs": {
+        "url": "https://github.com/shah/ts-periodicals/issues"
+    },
+    "homepage": "https://github.com/shah/ts-periodicals",
+    "devDependencies": {
+        "@shah/queryable-content": "0.5.2",
+        "@types/whatwg-mimetype": "^2.1.0",
+        "@shah/ts-pipe": "0.5.0",
+        "@types/node": "^14.0.26",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7",
+        "alsatian": "^3.2.1"
+    }
+}
