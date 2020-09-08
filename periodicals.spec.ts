@@ -21,7 +21,6 @@ export interface EmailPeriodicalEdition extends p.PeriodicalEdition {
 
 @TestFixture("Periodicals Manager")
 export class EmailTestSuite {
-    readonly destPath = "email-supplier-test-results";
     readonly contentTr: qc.ContentTransformer = pipe.pipe(qc.EnrichQueryableHtmlContent.singleton);
     readonly testEmails: EmailSupplierContent[] = require("./email-supplier-test-content.json");
     readonly atcRulesEngine = new atc.TypicalAnchorTextRuleEngine(atcRulesCommon.commonRules);
