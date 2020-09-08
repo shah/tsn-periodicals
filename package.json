@@ -1,6 +1,6 @@
 {
-    "name": "@shah/ts-periodicals",
-    "version": "0.7.0",
+    "name": "@shah/tsn-periodicals",
+    "version": "0.7.1",
     "description": "Content classifiers",
     "main": "dist/periodicals.js",
     "types": "dist/periodicals.d.ts",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shah/ts-periodicals.git"
+        "url": "git+https://github.com/shah/tsn-periodicals.git"
     },
     "keywords": [
         "email",
@@ -26,9 +26,9 @@
         "whatwg-mimetype": "^2.3.0"
     },
     "bugs": {
-        "url": "https://github.com/shah/ts-periodicals/issues"
+        "url": "https://github.com/shah/tsn-periodicals/issues"
     },
-    "homepage": "https://github.com/shah/ts-periodicals",
+    "homepage": "https://github.com/shah/tsn-periodicals",
     "devDependencies": {
         "@shah/queryable-content": "0.5.2",
         "@types/whatwg-mimetype": "^2.1.0",
