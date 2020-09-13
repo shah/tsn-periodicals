@@ -1,6 +1,6 @@
 {
     "name": "@shah/tsn-periodicals",
-    "version": "0.7.4",
+    "version": "0.7.5",
     "description": "Content classifiers",
     "main": "dist/periodicals.js",
     "types": "dist/periodicals.d.ts",
