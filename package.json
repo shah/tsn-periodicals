@@ -1,6 +1,6 @@
 {
     "name": "@shah/tsn-periodicals",
-    "version": "0.7.3",
+    "version": "0.7.4",
     "description": "Content classifiers",
     "main": "dist/periodicals.js",
     "types": "dist/periodicals.d.ts",
@@ -31,11 +31,11 @@
     "homepage": "https://github.com/shah/tsn-periodicals",
     "devDependencies": {
         "@shah/queryable-content": "0.5.2",
-        "@types/whatwg-mimetype": "^2.1.0",
         "@shah/ts-pipe": "0.5.0",
-        "@types/node": "^14.0.26",
+        "@types/node": "^14.10.1",
+        "@types/whatwg-mimetype": "^2.1.0",
+        "alsatian": "^3.2.1",
         "ts-node": "^8.10.2",
-        "typescript": "^3.9.7",
-        "alsatian": "^3.2.1"
+        "typescript": "^3.9.7"
     }
 }
