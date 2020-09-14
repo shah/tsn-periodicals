@@ -22,7 +22,7 @@
     "author": "Shahid N. Shah",
     "license": "MIT",
     "dependencies": {
-        "@shah/tsn-content-classification-html-anchors": "^0.6.0",
+        "@shah/tsn-content-classification-html-anchors": "^0.6.2",
         "whatwg-mimetype": "^2.3.0"
     },
     "bugs": {
