@@ -1,6 +1,6 @@
 {
     "name": "@shah/tsn-periodicals",
-    "version": "0.7.8",
+    "version": "0.7.9",
     "description": "Content classifiers",
     "main": "dist/periodicals.js",
     "types": "dist/periodicals.d.ts",
@@ -22,7 +22,7 @@
     "author": "Shahid N. Shah",
     "license": "MIT",
     "dependencies": {
-        "@shah/tsn-content-classification-html-anchors": "^0.6.3",
+        "@shah/tsn-content-classification-html-anchors": "^0.6.4",
         "whatwg-mimetype": "^2.3.0"
     },
     "bugs": {
